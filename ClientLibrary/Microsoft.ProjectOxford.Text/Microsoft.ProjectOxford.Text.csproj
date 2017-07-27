@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/adgroc/Cognitive-TextAnalytics-DotNet</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/adgroc/Cognitive-TextAnalytics-DotNet</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/adgroc/Cognitive-TextAnalytics-DotNet/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageIconUrl>https://raw.githubusercontent.com/adgroc/Cognitive-TextAnalytics-DotNet/master/Docs/Images/TextAnalytics.png</PackageIconUrl>
+    <PackageTags>Microsoft Project Oxford Cognitive Services Text Language</PackageTags>
+    <PackageReleaseNotes>Removed topic detection functionality due to API feature deprecation.</PackageReleaseNotes>
+    <Description>Microsoft Cognitive Services Text Analytics API Client Library</Description>
+    <Version>1.1.4-beta</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.2" />
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

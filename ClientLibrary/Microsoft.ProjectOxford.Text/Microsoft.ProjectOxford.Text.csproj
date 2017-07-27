@@ -12,7 +12,9 @@
     <PackageTags>Microsoft Project Oxford Cognitive Services Text Language</PackageTags>
     <PackageReleaseNotes>Removed topic detection functionality due to API feature deprecation.</PackageReleaseNotes>
     <Description>Microsoft Cognitive Services Text Analytics API Client Library</Description>
-    <Version>1.1.5</Version>
+    <Version>1.1.6</Version>
+    <Authors>Microsoft</Authors>
+    <Company>Microsoft</Company>
   </PropertyGroup>
 
   <ItemGroup>

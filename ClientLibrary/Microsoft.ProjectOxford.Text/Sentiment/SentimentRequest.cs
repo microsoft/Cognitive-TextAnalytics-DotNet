@@ -23,7 +23,7 @@ namespace Microsoft.ProjectOxford.Text.Sentiment
         public SentimentRequest()
         {
             this.Documents = new List<IDocument>();
-            this.ValidLanguages = new List<string>() { "en", "es", "fr", "pt" };
+            this.ValidLanguages = new List<string>() { "en", "es", "fr", "pt", "da", "de", "el", "fi", "it", "nl", "no", "pl", "ru", "sv", "tr" };
         }
 
         #endregion  Constructors

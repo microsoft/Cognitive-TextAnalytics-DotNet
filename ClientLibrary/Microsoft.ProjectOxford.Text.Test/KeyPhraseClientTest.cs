@@ -46,7 +46,7 @@ namespace Microsoft.ProjectOxford.Text.Test
         public void Validate_InvalidLanguage()
         {
             var text = "I had a wonderful experience! The rooms were wonderful and the staff were helpful.";
-            var doc = new KeyPhraseDocument() { Id = "TEST001", Text = text, Language = "fr" };
+            var doc = new KeyPhraseDocument() { Id = "TEST001", Text = text, Language = "it" };
             var request = new KeyPhraseRequest();
             request.Documents.Add(doc);
             request.Validate();

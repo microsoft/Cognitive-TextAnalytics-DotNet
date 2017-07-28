@@ -25,10 +25,10 @@ namespace Microsoft.ProjectOxford.Text.Test
         {
             get
             {
-                var apiKey = ConfigurationManager.AppSettings["apiKey"];
+                var apiKey = Environment.GetEnvironmentVariable("COG_API_KEY_TEXTANALYTICS");
 
                 if (string.IsNullOrEmpty(apiKey))
-                    throw new Exception("API key not found appsettings.json");
+                    throw new Exception("Environment variable COG_API_KEY_TEXTANALYTICS not found.");
 
                 return apiKey;
             }

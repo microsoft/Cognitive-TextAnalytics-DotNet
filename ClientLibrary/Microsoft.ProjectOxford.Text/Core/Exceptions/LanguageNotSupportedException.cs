@@ -64,7 +64,7 @@ namespace Microsoft.ProjectOxford.Text.Core.Exceptions
             get
             {
                 var sb = new StringBuilder();
-                sb.AppendLine(string.Format("Language {0} is not supported. Supported languages are:"));
+                sb.AppendLine(string.Format("Language {0} is not supported. Supported languages are:", this.InvalidLanguage));
 
                 foreach (var language in this.ValidLanguages)
                     sb.AppendLine(language);
